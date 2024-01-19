@@ -28,17 +28,32 @@ export default function InitialHero() {
       </div>
       <div className="container justify-center items-center">
         <div style={{
-          background: 'radial-gradient(90% 900% at 10% 10%, rgba(2,0,36,1) 0%, rgba(156,95,170,1) 35%, rgba(0,212,255,1) 100%)',
+          background: 'radial-gradient(100% 100% at 10% 10%, rgba(2,0,36,1) 0%, rgba(156,95,170,1) 35%, rgba(0,212,255,1) 100%)',
           padding: '20px', // Add padding or adjust as needed
           borderRadius: '50%',
           width:"400px",
           height:"400px",
           display: 'flex',
           alignItems: 'center', // Center vertically
-          justifyContent: 'center'
+          justifyContent: 'center',
+          animation:'shine 4s ease-in-out'
            // Add border-radius or adjust as needed
         }} className="">
           <h1 className="text-5xl justify-center items-center">Maya</h1>
+
+          <div style={{
+             background: 'radial-gradient(100% 100% at 10% 10%, rgba(2,0,36,1) 0%, rgba(156,95,170,1) 35%, rgba(0,212,255,1) 100%)',
+             padding: '20px', // Add padding or adjust as needed
+             borderRadius: '50%',
+             width:"400px",
+             height:"400px",
+             display: 'flex',
+             alignItems: 'center', // Center vertically
+             justifyContent: 'center',
+             animation:'shine 4s ease-in-out'
+          }}>
+
+          </div>
         </div>
       </div>
     </div>
