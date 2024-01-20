@@ -25,17 +25,17 @@ export default function InitialHero() {
     {/* First div */}
     <div className="flex flex-col justify-center items-center py-4" style={{ width: '50%' }}>
       <p className="pt-2 md:text-4xl sm:text-xl text-l font-bold">Maya simplicity</p>
-      <span className="pt-2 pl-2 md:text-4xl sm:text-xl text-l font-bold md:pl-2" ref={el} />
+      <span className="pt-2 pl-2 text-secondary md:text-4xl sm:text-xl text-l font-bold md:pl-2" ref={el} />
       <div className="flex flex-row space-x-4 justify-center">
         <button className="btn btn-accent">Get Started</button>
-        <button className="btn btn-ghost">Why Maya?</button>
+        <button className="btn btn-ghost border">Why Maya?</button>
         <button className="btn">View on Github</button>
       </div>
     </div>
   
     {/* Second div */}
-    <div className="container justify-center items-center" style={{ width: '50%' }}>
-      <div
+    <div className=" justify-center items-center" style={{ width: '50%' }}>
+      <div className="opacity-70 rounded-circle position-absolute "
         style={{
           background:
             'radial-gradient(100% 100% at 10% 10%, rgba(2,0,36,1) 0%, rgba(156,95,170,1) 35%, rgba(0,212,255,1) 100%)',
@@ -47,10 +47,19 @@ export default function InitialHero() {
           alignItems: 'center', // Center vertically
           justifyContent: 'center',
           animation: 'shine 4s ease-in-out',
+          filter:'blur(24px)',
+          position: 'relative',
+          zIndex:1,
         }}
+        
       >
-        <h1 className="text-5xl justify-center items-center">Maya</h1>
-      </div>
+         <div className="blur-none z-10">
+           <h1 className="text-5xl justify-center items-center blur-none z-10" >Maya</h1>
+         </div>
+         </div>
+        
+      
+    
     </div>
   </div>
   
