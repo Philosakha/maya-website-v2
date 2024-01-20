@@ -7,7 +7,7 @@ export default function InitialHero() {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['FRAMEWORK', 'CLI'],
+      strings: ['FRAMEWORK', 'CLI','HOOKS'],
       typeSpeed: 140,
       loop: true,
       startDelay: 2,
@@ -24,8 +24,10 @@ export default function InitialHero() {
     <div className="flex flex-row justify-between pt-5">
     {/* First div */}
     <div className="flex flex-col justify-center items-center py-4" style={{ width: '50%' }}>
-      <p className="pt-2 md:text-4xl sm:text-xl text-l font-bold">Maya simplicity</p>
-      <span className="pt-2 pl-2 text-secondary md:text-4xl sm:text-xl text-l font-bold md:pl-2" ref={el} />
+      <div className="m-10">
+        <p className="pt-2 md:text-4xl sm:text-xl text-l font-bold pb-3">Maya simplicity</p>
+        <span className="pt-2 pl-2 text-secondary md:text-4xl sm:text-xl text-l justify-center items-center font-bold md:pl-2" ref={el} />
+      </div>
       <div className="flex flex-row space-x-4 justify-center">
         <button className="btn btn-accent">Get Started</button>
         <button className="btn btn-ghost border">Why Maya?</button>
