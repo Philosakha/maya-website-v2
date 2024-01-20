@@ -25,6 +25,11 @@ export default function InitialHero() {
       <div className='flex justify-center items-center py-4'>
         <p className='pt-2 md:text-4xl sm:text-xl text-l font-bold'>Maya simplicity </p>
         <span className="pt-2 pl-2 md:text-4xl sm:text-xl text-l font-bold md:pl-2" ref={el} />
+        <div className="flex flex-row justify-center">
+        <button className="btn btn-accent">Get Started</button>
+        <button className="btn btn-ghost">Why Maya?</button>
+        <button className="btn">View on Github</button>
+        </div>
       </div>
       <div className="container justify-center items-center">
         <div style={{
