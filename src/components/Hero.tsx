@@ -1,5 +1,6 @@
 import InitialHero from "./initialHero";
 import CardComponents from "./cardingcomp";
+import TeamComponent from "./team";
 export default function Hero(){
     return(
         <>
@@ -9,6 +10,9 @@ export default function Hero(){
                </div>
                <div className="bg-base-100 justify-center">
                     <CardComponents />
+               </div>
+               <div className="bg-base-100 justify-center items-center pt-10">
+                <TeamComponent />
                </div>
            </div>
         </>
