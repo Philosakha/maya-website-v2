@@ -9,11 +9,11 @@ export default function TeamComponent(){
         <>
 
 <div className=" ">
-                <div className="justify-center items-center ">
-                    <h1 className="text-3xl w-full pb-5  ">Meet the Team</h1>
+                <div className="justify-center items-center text-center ">
+                    <h1 className="text-3xl w-full pb-5 ">Meet the Team</h1>
                 </div>
     
-                <div className="flex flex-row justify-around items-center pt-5">
+                <div className="flex flex-row justify-around items-center pt-5 pb-10">
                    
                     <div className="card w-96 bg-secondary text-primary-content">
                     <div className="card-body">
