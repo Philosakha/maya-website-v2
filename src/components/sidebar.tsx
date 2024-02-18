@@ -18,7 +18,7 @@ export default function Sidebar(){
             <aside id="default-sidebar" className="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0 border-r" aria-label="Sidebar">
    <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-figma-500">
       <ul className="space-y-2 font-medium">
-      <Link href="/"><li classNameName='border-b flex items-center p-2 text-gray-900  dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group'>
+      <Link href="/"><li className='border-b flex items-center p-2 text-gray-900  dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group'>
             
             <Image src="/wormholeimg.png" alt='Wormhole Logo' width={70} height={70}  />
                <span className="ml-3">WORMHOLE</span>
@@ -80,7 +80,7 @@ export default function Sidebar(){
 
    <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-figma-500 border-b md:hidden lg:hidden">
       <ul className="space-y-2 font-medium">
-      <Link href="/"><li classNameName='border-b flex items-center p-2 text-gray-900  dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group'>
+      <Link href="/"><li className='border-b flex items-center p-2 text-gray-900  dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group'>
             
             <Image src="/wormholeimg.png" alt='Wormhole Logo' width={70} height={70}  />
                <span className="ml-3">WORMHOLE</span>
